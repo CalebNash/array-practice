@@ -26,7 +26,7 @@ function myFunction(str, i) {
 // The function should not mutate the original array
 // ---------------------
 
-Put your answer below -------------------------
+//Put your answer below -------------------------
 
 function reverse(arr) {
   var newArr = [];
@@ -126,7 +126,21 @@ function noDuplicate(arr) {
 
 // Put your answer below -------------------------
 
+function equalArrays(arr1, arr2){
 
+  newArr1 = arr1.sort();
+  newArr2 = arr2.sort();
+  var compare;
+
+  for (i = 0; i < newArr1.length; i++){
+    if (newArr1[i] == newArr2[i]){
+      compare = true;
+    }else{
+      compare = false;
+    }
+  }
+  return compare;
+}
 
 
 
