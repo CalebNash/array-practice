@@ -3,7 +3,7 @@
 // myFunction('sunshine', 3) => ['sunshine', 'sunshine', 'sunshine'];
 // ---------------------
 
-// Put your answer below -------------------------
+//Put your answer below -------------------------
 
 function myFunction(str, i) {
   var arr = [];
@@ -26,7 +26,7 @@ function myFunction(str, i) {
 // The function should not mutate the original array
 // ---------------------
 
-// Put your answer below -------------------------
+Put your answer below -------------------------
 
 function reverse(arr) {
   var newArr = [];
@@ -76,12 +76,13 @@ function trueValues(arr) {
 
 // Put your answer below -------------------------
 
-function newObject(arr){
+function newObject(arr) {
   var object = {}
 
-  for (i = 0; i < arr.length; i++){
+  for (i = 0; i < arr.length; i++) {
     object[arr[i][0]] = arr[i][1];
   }
+  return object;
 }
 
 
@@ -98,9 +99,17 @@ function newObject(arr){
 // Put your answer below -------------------------
 
 
+function noDuplicate(arr) {
+  var newArr = [];
 
+  for (i = 0; i < arr.length; i++) {
+    if (newArr.indexOf(arr[i]) === -1) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
 
-
+}
 
 
 
