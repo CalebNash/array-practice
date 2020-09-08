@@ -53,16 +53,8 @@ function reverse(arr) {
 
 function trueValues(arr) {
 
-  for (i = 0; i < arr.length; i++) {
-    if (arr[i] == true) {
-
-    } else {
-      arr.splice(i, 1);
-    }
-  }
+  arr = arr.filter(Boolean);
 }
-
-
 
 
 
