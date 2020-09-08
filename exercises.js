@@ -5,7 +5,13 @@
 
 // Put your answer below -------------------------
 
+function myFunction(str, i) {
+  var arr(i) = [];
 
+  for (j = 0; j < arr.length; j++) {
+    arr[j] = str;
+  }
+}
 
 
 
@@ -23,7 +29,13 @@
 
 // Put your answer below -------------------------
 
+function reverse(arr) {
+  var newArr = [];
 
+  for (i = 0; i < arr.length; i++) {
+    newArr.unshift(arr[i]);
+  }
+}
 
 
 
@@ -40,8 +52,16 @@
 
 // Put your answer below -------------------------
 
+function trueValues(arr) {
 
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i] == true) {
 
+    } else {
+      arr.splice(i, 1);
+    }
+  }
+}
 
 
 
@@ -67,7 +87,6 @@
 
 
 
-
 // -----------------------------------------------
 
 // ---------------------
@@ -76,7 +95,6 @@
 // ---------------------
 
 // Put your answer below -------------------------
-
 
 
 
@@ -106,7 +124,6 @@
 
 
 
-
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -127,7 +144,6 @@
 // ---------------------
 
 // Put your answer below -------------------------
-
 
 
 
