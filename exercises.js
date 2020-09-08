@@ -6,13 +6,12 @@
 // Put your answer below -------------------------
 
 function myFunction(str, i) {
-  var arr(i) = [];
+  var arr = [];
 
-  for (j = 0; j < arr.length; j++) {
+  for (j = 0; j < i; j++) {
     arr[j] = str;
   }
 }
-
 
 
 
@@ -67,8 +66,6 @@ function trueValues(arr) {
 
 
 
-
-
 // -----------------------------------------------
 
 // ---------------------
@@ -79,9 +76,13 @@ function trueValues(arr) {
 
 // Put your answer below -------------------------
 
+function newObject(arr){
+  var object = {}
 
-
-
+  for (i = 0; i < arr.length; i++){
+    object[arr[i][0]] = arr[i][1];
+  }
+}
 
 
 
